@@ -45,33 +45,33 @@ div{
     display: flex;
 }
 
-.bg1{
+.box1{
   margin-left:270px;
   width: 200px;
   height: 200px;
   background-color: #319cea;
 }
-.bg2{
+.box2{
     
   margin-left:150px;
   background-color: #3ed319;
 }
-.bg3{
+.box3{
     margin-left:150px;
     background-color: #ba31ea;
 }
-.bbg1{
+.cbox1{
     margin-left:270px;
     width: 195px;
   height: 195px;
   border: solid 5px #1fa7f4;
   background-color: #ffffff;
 }
-.bbg2{
+.cbox2{
   margin-left:145px;
   border: solid 5px #3ed319;
   }
-.bbg3{
+.cbox3{
     margin-left: 145px;
     border: solid 5px #ba31ea;
 }
