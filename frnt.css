@@ -1,5 +1,5 @@
 .Headin1 {
-  margin-left:653;
+  margin-left:653px;
   width: 133px;
   height: 24px;
   font-family: Inter;
@@ -12,7 +12,7 @@
   color: var(--black);
 }
 .p1{
-    margin:15 312 20 311;
+    margin:15px 312px 20px 311px;
     width: 817px;
     height: 75px;
     font-family: 'Inter', sans-serif;
@@ -27,12 +27,12 @@ span{
     text-align: center;
 }
 img{
-    margin: 20 397 30 396;
+    margin: 20px 397px 30px 396px;
     width: 647px;
     height: 412px;
 }
 .head2{
-  margin:30 650 50 651;
+  margin:30px 650px 50px 651px;
   width: 139px;
   height: 24px;
   font-family: Inter;
@@ -46,14 +46,14 @@ div{
 }
 
 .box1{
-  margin-left:270;
+  margin-left:270px;
   width: 200px;
   height: 200px;
   background-color: #319cea;
 }
 .box2{
     
-  margin-left:150;
+  margin-left:150px;
   background-color: #3ed319;
 }
 .box3{
@@ -61,22 +61,22 @@ div{
     background-color: #ba31ea;
 }
 .cbox1{
-    margin-left:270;
+    margin-left:270px;
     width: 195px;
   height: 195px;
   border: solid 5px #1fa7f4;
   background-color: #ffffff;
 }
 .cbox2{
-  margin-left:145;
+  margin-left:145px;
   border: solid 5px #3ed319;
   }
 .cbox3{
-    margin-left: 145;
+    margin-left: 145px;
     border: solid 5px #ba31ea;
 }
 .head3{
-  margin:30 650 50 651;
+  margin:30px 650px 50px 651px;
   width: 157px;
   height: 24px;
   font-family: Inter;
@@ -85,10 +85,10 @@ div{
   color: #000000;
   }
   .para1{
-    margin-top:96;
+    margin-top:96px;
   }
   .rec1{
-  margin-left: 70;
+  margin-left: 70px;
   border: solid 5px #1fa7f4;
   background-color: #ffffff;
   width: 338px;
@@ -101,17 +101,17 @@ div{
   }
 
   .rec2{
-  margin-left:50;
+  margin-left:50px;
   }
   
 
   .para2{
-    margin-top:40;
+    margin-top:40px;
   }
   
   
   .symc{
-      margin:40 59 46 1275;
+      margin:40px 59px 46px 1275px;
     width: 67px;
     height: 34px;
     font-family: Inter;
