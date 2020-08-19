@@ -1,13 +1,13 @@
-.Headin1 {
+@media all and (min-width: 800px) and (max-width: 1024px)
+{
+.Headin1 
+{
   margin-left:653px;
   width: 133px;
   height: 24px;
   font-family: Inter;
   font-size: 20px;
   font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: 0.6px;
   color: var(--black);
 }
@@ -62,18 +62,21 @@ div{
     margin-left:150px;
     background-color: #ba31ea;
 }
-.cbox1{
-    margin-left:270px;
-    width: 195px;
+.cbox1
+{
+  margin-left:270px;
+  width: 195px;
   height: 195px;
   border: solid 5px #1fa7f4;
   background-color: #ffffff;
 }
-.cbox2{
+.cbox2
+{
   margin-left:145px;
   border: solid 5px #3ed319;
-  }
-.cbox3{
+}
+.cbox3
+{
     margin-left: 145px;
     border: solid 5px #ba31ea;
 }
@@ -86,7 +89,8 @@ div{
   letter-spacing: 0.6px;
   color: #000000;
   }
-  .para1{
+  .para1
+  {
     margin-top:96px;
   }
   .rec1{
@@ -102,15 +106,14 @@ div{
   line spacing:0.6px;
   }
 
-  .rec2{
+  .rec2
+  {
   margin-left:50px;
   }
-  
-
-  .para2{
+  .para2
+  {
     margin-top:40px;
   }
-  
   
   .symc{
       margin:40px 59px 46px 1275px;
@@ -126,3 +129,4 @@ div{
     padding:32px 20px 32px 19px;
     text-align:center
   }
+}
