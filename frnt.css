@@ -1,3 +1,5 @@
+@media screen and (min-width: 420px) 
+  {
 .Headin1 {
   margin-left:653px;
   width: 133px;
@@ -126,3 +128,4 @@ div{
     padding:32px 20px 32px 19px;
     text-align:center
   }
+}
