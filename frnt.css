@@ -54,6 +54,13 @@ div{
   width: 200px;
   height: 200px;
   background-color: #319cea;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin: 2% 0%;
+  margin-left: 12%;
+  margin-right: 14%;
+
 }
 .box2
 {
@@ -98,6 +105,10 @@ div{
   border: solid 5px #1fa7f4;
   background-color: #ffffff;
   width: 338px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+
   height: 75px;
   font-family: Inter;
   font-size: 20px;
