@@ -75,6 +75,13 @@ div{
 }
 .cbox1{
     margin-left:270px;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  margin: 2% 0%;
+  margin-left: 12%;
+  margin-right: 14%;
+
     width: 195px;
   height: 195px;
   border: solid 5px #1fa7f4;
