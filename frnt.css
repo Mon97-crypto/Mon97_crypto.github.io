@@ -1,64 +1,108 @@
-body 
+body{
+    text-align:center;
+}
+img
 {
-    font-family: "Inter";
-    text-align: center;
-    font-size: x-large;
- }
+    display:flex;
+    margin-left:175px;
+    flex-direction: column;
 
-  img 
+}
+.heading1,.heading2,.heading3
 {
-    width: 40%;
-    margin: 1px auto;
-    display: block;
- }
-  .hd1,.hd2,.hd3
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1,.container2,.container3
 {
-  font-size: 20px;
-  font-weight: bold
+   width:100%;
+   height:auto;
+   display:flex;
+   flex-direction:row;
+   justify-content: space-around;
+  
 }
-.box1 {
-  font-size: 20px;
-  font-weight: 500;
-}
-.bbox,.gbox,.vbox {
-  width: 200px;
-  height: 200px;
-}
-.blueR,.greenR,.violetR {
-  width: 195px;
-  height: 195px;
-}
-
-.ubox1,.ubox2,.ubox3,.lbox1,.lbox2,.lbox3 {
-  border: solid 5px #1fa7f4;
-  width: 338px;
-  font-size: 20px;
-  padding: 1%;
-  flex-basis: 25%;
-}
-  .box1,.container1,.container2 {
-    display: flex;
-    justify-content: space-around;
-  }
-  .bbox {
+.bbox
+{
+    
+    width:200px;
+    height:200px;
     background-color: #319cea;
-  }
-  .gbox{
+    margin:20px;
+    box-sizing:border-box;
+    font-size:50px;
+}
+.gbox
+{    
+    width:200px;
+    height:200px;
     background-color: #3ed319;
-  }
-  .vbox {
+
+    margin:20px;
+    box-sizing:border-box;
+    font-size:50px;
+
+    }
+.vbox
+{
+    width:200px;
+    height:200px;
+    margin:20px;
     background-color: #ba31ea;
-  }
-  .blueR {
+    box-sizing:border-box;
+    font-size:50px;
+   
+}
+.bborder
+{
+    width:200px;
+    height:200px;
+    margin:20px;
     border: 5px solid #1fa7f4;
-  }
-  .greenR {
+    box-sizing:border-box;
+    font-size:50px;
+   
+}
+.gborder
+{
+    width:200px;
+    height:200px;
+    margin:20px;
     border: 5px solid #3ed319;
-  }
-  .violetR {
+    box-sizing:border-box;
+    font-size:50px;
+   
+}
+.vborder
+{
+    width:200px;
+    height:200px;
+    margin:20px;
     border: 5px solid #ba31ea;
+    box-sizing:border-box;
+    font-size:50px;
+   
+}
+.ubox1,.ubox2,.ubox3,.lbox1,.lbox2,.lbox3 {
+    border: solid 5px #1fa7f4;
+    width: 338px;
+    font-size: 20px;
+    padding: 1%;
+    flex-basis: 25%;
+    flex-direction:row;
   }
-  .symc {
+  .lbox1,.lbox2,.lbox3 {
+    display:flex;
+    border: solid 5px #1fa7f4;
+    width: 338px;
+    font-size: 20px;
+    padding: 1%;
+    flex-basis: 25%;
+    justify-content: space-evenly;
+    flex-direction:row;
+  }
+  
+.symc {
     width: 67px;
     height: 34px;
     font-size: 50px;
@@ -70,3 +114,4 @@ body
     text-align: center;
     margin-left: auto;
   }
+
