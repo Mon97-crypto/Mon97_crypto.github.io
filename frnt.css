@@ -33,24 +33,13 @@ img
 }
 .gbox
 {    
-    width:200px;
-    height:200px;
     background-color: #3ed319;
 
-    margin:20px;
-    box-sizing:border-box;
-    font-size:50px;
-
-    }
+}
 .vbox
 {
-    width:200px;
-    height:200px;
-    margin:20px;
     background-color: #ba31ea;
-    box-sizing:border-box;
-    font-size:50px;
-   
+       
 }
 .bborder
 {
@@ -64,23 +53,13 @@ img
 }
 .gborder
 {
-    width:200px;
-    height:200px;
-    margin:20px;
     border: 5px solid #3ed319;
-    box-sizing:border-box;
-    font-size:50px;
-   
+    
 }
 .vborder
 {
-    width:200px;
-    height:200px;
-    margin:20px;
     border: 5px solid #ba31ea;
-    box-sizing:border-box;
-    font-size:50px;
-   
+    
 }
 .ubox1,.ubox2,.ubox3,.lbox1,.lbox2,.lbox3 {
     border: solid 5px #1fa7f4;
