@@ -3,10 +3,9 @@ body{
 }
 img
 {
-    display:flex;
-    margin-left:175px;
-    flex-direction: column;
-
+    width: 40%;
+    margin: 1px auto;
+    display: flex;
 }
 .heading1,.heading2,.heading3
 {
