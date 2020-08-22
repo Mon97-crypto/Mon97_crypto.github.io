@@ -1,3 +1,4 @@
+ 
 body{
     text-align:center;
 }
@@ -5,7 +6,7 @@ img
 {
     width: 40%;
     margin: 1px auto;
-    display: flex;
+    display: flex;     
 }
 .heading1,.heading2,.heading3
 {
@@ -29,17 +30,16 @@ img
     background-color: #319cea;
     margin:20px;
     box-sizing:border-box;
-    font-size:50px;
 }
 .gbox
 {    
     background-color: #3ed319;
-
-}
+    
+    }
 .vbox
 {
     background-color: #ba31ea;
-       
+    
 }
 .bborder
 {
@@ -48,22 +48,21 @@ img
     margin:20px;
     border: 5px solid #1fa7f4;
     box-sizing:border-box;
-    font-size:50px;
-   
+    
 }
 .gborder
 {
     border: 5px solid #3ed319;
-    
+           
 }
 .vborder
 {
     border: 5px solid #ba31ea;
-    
+        
 }
-.ubox1,.ubox2,.ubox3{
+.ubox1,.ubox2,.ubox3 {
     border: solid 5px #1fa7f4;
-    width: 338px;
+    width: 40%;
     font-size: 20px;
     padding: 1%;
     flex-basis: 25%;
@@ -72,7 +71,7 @@ img
   .lbox1,.lbox2,.lbox3 {
     display:flex;
     border: solid 5px #1fa7f4;
-    width: 338px;
+    width: 40%;
     font-size: 20px;
     padding: 1%;
     flex-basis: 25%;
@@ -81,15 +80,38 @@ img
   }
   
 .symc {
-    width: 67px;
-    height: 34px;
+    width:5%;
     font-size: 50px;
     line-height: 0.5;
     color: #000000;
     background-color: #1fa7f4;
     border-radius: 50%;
-    padding: 32px 20px 32px 19px;
+    padding: 1%;
     text-align: center;
     margin-left: auto;
   }
 
+  @media (max-width: 480px) {
+    .container1,.container2,.container3 {
+      flex-direction: column;
+      text-align: center;
+    }
+    .bbox,.gbox,.vbox {
+      width: 40%;
+      height: 8rem;
+      margin-left: 25%;
+    }
+    .bborder,.gborder,.vborder {
+      width: 39%;
+      height: 8rem;
+      margin-left: 25%;
+    }
+    .ubox1,.ubox2,.ubox3,.lbox1,.lbox2,.lbox3 {
+      width: 70%;
+      margin-left: 15%;
+    }
+    .symc {
+      font-size: 30px;
+    }
+  }
+   
