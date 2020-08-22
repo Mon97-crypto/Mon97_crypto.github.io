@@ -69,7 +69,6 @@ img
     flex-direction:row;
   }
   .lbox1,.lbox2,.lbox3 {
-    display:flex;
     border: solid 5px #1fa7f4;
     width: 40%;
     font-size: 20px;
@@ -91,27 +90,33 @@ img
     margin-left: auto;
   }
 
-  @media (max-width: 480px) {
+  @media only screen and (max-width: 480px)
+   {
     .container1,.container2,.container3 {
       flex-direction: column;
       text-align: center;
     }
     .bbox,.gbox,.vbox {
-      width: 40%;
+      flex-direction: column;
       height: 8rem;
-      margin-left: 25%;
+      width:40%;
+      margin-left: 29%;
     }
     .bborder,.gborder,.vborder {
+     flex-direction: column;
+      
       width: 39%;
       height: 8rem;
-      margin-left: 25%;
+      margin-left: 29%;
     }
     .ubox1,.ubox2,.ubox3,.lbox1,.lbox2,.lbox3 {
       width: 70%;
-      margin-left: 15%;
+      margin-left: 13%;
     }
     .symc {
-      font-size: 30px;
+      font-size: 10px;
+      padding:1%;
+      text-align:center;
     }
   }
    
