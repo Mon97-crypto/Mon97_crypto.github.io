@@ -81,6 +81,7 @@ img
 .symc {
     width:5%;
     font-size: 50px;
+    position:fixed;
     line-height: 0.5;
     color: #000000;
     background-color: #1fa7f4;
@@ -116,6 +117,7 @@ img
     .symc {
       font-size: 10px;
       padding:1%;
+      position:fixed;
       text-align:center;
     }
   }
